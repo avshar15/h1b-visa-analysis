@@ -114,7 +114,7 @@ The dashboard was designed against realistic user needs:
 - `H1B_Data_Analysis.ipynb`: the full cleaning and reshaping pipeline, documented end to end
 - `h1b_cleaned_sample.csv`: a 5,000-row sample of the cleaned output
 - `state_lookup.csv`: abbreviation-to-name lookup used for map tooltips
-- `screenshots/`: dashboard images
+- `dashboard_overview.png`: dashboard screenshot
 
 ---
 
@@ -122,10 +122,6 @@ The dashboard was designed against realistic user needs:
 
 1. Download the yearly files (2015 through 2025) from the [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub) into the project folder.
 2. Open `H1B_Data_Analysis.ipynb` in Jupyter.
-3. Run all cells. The pipeline outputs `h1b_cleaned.csv`, which feeds the Tableau dashboard.
+3. Run all cells. The pipeline generates the full `h1b_cleaned.csv` locally (the repo includes only a sample), which is the file that feeds the Tableau dashboard.
 
 ---
-
-## Note on Attribution
-
-This began as a graduate course project in data visualization. I led the data engineering and dashboard build; the accompanying written report was a shared effort. The pipeline and dashboard represented in this repository reflect my work on the project.
