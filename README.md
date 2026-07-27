@@ -2,10 +2,14 @@
 
 **An interactive Tableau dashboard and Python data pipeline that turn eleven years of raw U.S. government H-1B petition records into an explorable view of approvals, denials, and approval rates across employers, states, industries, fiscal years, and petition types.**
 
+
 📊 **Live dashboard:** https://public.tableau.com/shared/RJK2P6GQX
+
+
 📓 **Data pipeline:** [H1B_Data_Analysis.ipynb](H1B_Data_Analysis.ipynb)
 
-![Dashboard overview](screenshots/dashboard_overview.png)
+
+![Dashboard overview](dashboard_overview.png)
 
 ---
 
